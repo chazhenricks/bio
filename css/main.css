@@ -1,0 +1,82 @@
+/***********
+GLOBAL
+***********/
+body{
+  background-color: #F4F4F4;
+  color: #373737;
+}
+
+article{
+
+}
+
+
+
+/*************
+NAV BAR
+*************/
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+nav li {
+  padding: 1em 4em;
+  list-style-type: none;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+
+/*************
+Header
+*************/
+
+header{
+  display: flex;
+  width: 100%;
+  background-color: #DCD0C0
+}
+
+header h1{
+  margin: 0 auto;
+}
+
+
+/*************
+Main Body
+*************/
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.wrapper h2{
+  margin: 0 auto;
+}
+
+article {
+  background-color: #F4F4F4;
+  margin: 1em 0;
+  width: 80%;
+  margin-left: 5%;
+}
+
+section{
+
+}
+
+/*************
+FOOTER
+*************/
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
